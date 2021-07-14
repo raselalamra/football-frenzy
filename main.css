@@ -1,0 +1,567 @@
+/* -----------
+font 
+---------*/
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* ------------
+top-bar 
+----------*/
+
+.top-bar{
+    background-color: royalblue;
+    width: 100%;
+    height: 550px;
+}
+/* ----------------
+football 
+--------------*/
+
+.football{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 102px;
+}
+.football, .watch-live{
+    display: grid;
+    grid-row-gap: 27px;
+}
+/* -------------------
+copa-america 
+----------------- */
+
+.copa-america{
+    position: absolute;
+    width: 485px;
+    height: 230px;
+    left: 156px;
+    top: 50px;
+}
+.copa-america h1{
+    font-style: normal;
+    font-weight: bold; 
+    font-size: 64px;
+    line-height: 80px;
+    color: #FFFFFF;
+}
+/* ---------------
+watch-live
+------------ */
+
+.watch-live{
+    position: absolute;
+    background: #E02C6D;;
+    width: 168px;
+    height: 44px;
+    left: 156px;
+    top: 360px;
+}
+.watch-live a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.watch-live p{
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 10px;
+    color: #FFFFFF;
+}
+/* ---------------
+banner 
+-------------*/
+.banner{
+    display: flex;
+    width: 556.01px;
+    height: 438px;
+    margin-left: 800px;
+    
+}
+.banner img{
+    width: 500px;
+    height: 438px;
+    margin-top: 50px;
+}
+
+.banner:hover{
+    transform: rotate(20deg);
+}
+
+/* -----------------
+top-players
+------------- */
+
+.top-players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 100px;
+    margin-left: 120px;
+}
+
+/* ---------------
+players1 
+------------*/
+
+.players1{
+    width: 330px;
+    height: 456px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player1 img{
+    width: 300px;
+    height: 256px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 16px 15px;
+}
+.neymar{
+    position: static;
+    text-align: justify;
+    width: 300px;
+    height: 154px;
+    left: 0px;
+    top: 272px;
+    margin: 16px 15px;
+}
+
+/* ----------------
+players2
+------------ */
+
+.players2{
+    width: 330px;
+    height: 456px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player2 img{
+    width: 300px;
+    height: 256px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 16px 15px;
+}
+.messi{
+    position: static;
+    text-align: justify;
+    width: 300px;
+    height: 154px;
+    left: 0px;
+    top: 272px;
+    margin: 16px 15px;
+}
+
+/* ---------------
+players3
+------------*/
+
+.players3{
+    width: 330px;
+    height: 456px;
+    left: 180px;
+    top: 747px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player3 img{
+    width: 300px;
+    height: 256px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 16px 15px;
+}
+.rolando{
+    position: static;
+    text-align: justify;
+    width: 300px;
+    height: 154px;
+    left: 0px;
+    top: 272px;
+    margin: 16px 15px;
+}
+
+/* -----------------------
+Second-players
+-------------------*/
+
+.second-players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 70px;
+    margin-left: 120px;
+}
+
+/* ------------
+players4 
+----------*/
+
+.players4{
+    width: 330px;
+    height: 456px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player4 img{
+    width: 300px;
+    height: 256px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 16px 15px;
+}
+.paulo{
+    position: static;
+    text-align: justify;
+    width: 300px;
+    height: 154px;
+    left: 0px;
+    top: 272px;
+    margin: 16px 15px;
+}
+
+/* -----------
+players5 
+----------*/
+
+.players5{
+    width: 330px;
+    height: 456px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player5 img{
+    width: 300px;
+    height: 256px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 16px 15px;
+}
+.mesut{
+    position: static;
+    text-align: justify;
+    width: 300px;
+    height: 154px;
+    left: 0px;
+    top: 272px;
+    margin: 16px 15px;
+}
+
+/* --------------
+players6
+------------ */
+
+.players6{
+    width: 330px;
+    height: 456px;
+    left: 180px;
+    top: 747px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player6 img{
+    width: 300px;
+    height: 256px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 16px 15px;
+}
+.mauro{
+    position: static;
+    text-align: justify;
+    width: 300px;
+    height: 154px;
+    left: 0px;
+    top: 272px;
+    margin: 16px 15px;
+}
+
+/* ---------------
+Third-players
+-------------- */
+.third-players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 70px;
+    margin-left: 120px;
+}
+
+/* -------------
+players7
+------------- */
+
+.players7{
+    width: 330px;
+    height: 456px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player7 img{
+    width: 300px;
+    height: 256px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 16px 15px;
+}
+.di-maria{
+    position: static;
+    text-align: justify;
+    width: 300px;
+    height: 154px;
+    left: 0px;
+    top: 272px;
+    margin: 16px 15px;
+}
+
+/* ------------
+players8
+---------- */
+
+.players8{
+    width: 330px;
+    height: 456px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player8 img{
+    width: 300px;
+    height: 256px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 16px 15px;
+}
+.mbappe{
+    position: static;
+    text-align: justify;
+    width: 300px;
+    height: 154px;
+    left: 0px;
+    top: 272px;
+    margin: 16px 15px;
+}
+
+/* ------------
+players9
+------------ */
+
+.players9{
+    width: 330px;
+    height: 456px;
+    left: 180px;
+    top: 747px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player9 img{
+    width: 300px;
+    height: 256px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 16px 15px;
+}
+.salah{
+    position: static;
+    text-align: justify;
+    width: 300px;
+    height: 154px;
+    left: 0px;
+    top: 272px;
+    margin: 16px 15px;
+}
+
+/*  ---------------
+ Fourth-players
+ -------------- */
+
+.fourth-players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 70px;
+    margin-left: 120px;
+}
+
+/* ------------
+players10 
+-----------*/
+
+.players10{
+    width: 330px;
+    height: 456px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player10 img{
+    width: 300px;
+    height: 256px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 16px 15px;
+}
+.harry{
+    position: static;
+    text-align: justify;
+    width: 300px;
+    height: 154px;
+    left: 0px;
+    top: 272px;
+    margin: 16px 15px;
+}
+
+/* -------------
+ players11 
+ -----------*/
+
+.players11{
+    width: 330px;
+    height: 456px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player11 img{
+    width: 300px;
+    height: 256px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 16px 15px;
+}
+.kevin{
+    position: static;
+    text-align: justify;
+    width: 300px;
+    height: 154px;
+    left: 0px;
+    top: 272px;
+    margin: 16px 15px;
+}
+
+/* -------------
+ players12 
+ ------------*/
+
+.players12{
+    width: 330px;
+    height: 456px;
+    left: 180px;
+    top: 747px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player12 img{
+    width: 300px;
+    height: 256px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 16px 15px;
+}
+.philippe{
+    position: static;
+    text-align: justify;
+    width: 300px;
+    height: 154px;
+    left: 0px;
+    top: 272px;
+    margin: 16px 15px;
+}
+
+/* --------
+match 
+-------*/
+
+.match{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 102px;
+    margin-top: 150px;
+}
+.match, .watch-now{
+    display: grid;
+    grid-row-gap: 27px;
+}
+/*  --------------------------- 
+copa-america-highlights
+-------------------------- */
+
+.copa-america-highlights{
+    position: absolute;
+    width: 485px;
+    height: 230px;
+    left: 156px;
+    margin-right: 66px;
+}
+.copa-america-highlights h1{
+    font-style: normal;
+    font-weight: bold; 
+    font-size: 64px;
+    line-height: 70px;
+    margin-bottom: 8px;
+    color:black;
+}
+.copa-america-highlights p{
+    font-size: 16px;
+    text-align:justify;
+    line-height: 28px;
+    margin-top: 0px;
+}
+/* ----------
+watch-now 
+----------*/
+
+.watch-now{
+    width: 168px;
+    height: 44px;
+    left: 156px;
+    top: 360px;
+    background: #E02C6D;
+}
+.watch-now a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.watch-now p{
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 10px;
+    color: #FFFFFF;
+}
+/* ----------- 
+match-pic 
+-----------*/
+.match-pic{
+    display: flex;
+    width: 556.01px;
+    height: 438px;
+    margin-left: 800px;   
+}
+.match-pic img{
+    width: 580px;
+    height: 440px;
+}
+/* -----------
+ footer 
+ ---------*/
+
+.footer{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 63px;
+}
+.footer img{
+    position: static;
+    width: 430px;
+    height: 110px;
+    left: 0px;
+    top: 0px;
+}
