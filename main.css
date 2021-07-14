@@ -475,80 +475,6 @@ players10
     margin: 16px 15px;
 }
 
-/* --------
-match 
--------*/
-
-.match{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-row-gap: 102px;
-    margin-top: 150px;
-}
-.match, .watch-now{
-    display: grid;
-    grid-row-gap: 27px;
-}
-/*  --------------------------- 
-copa-america-highlights
--------------------------- */
-
-.copa-america-highlights{
-    position: absolute;
-    width: 485px;
-    height: 230px;
-    left: 156px;
-    margin-right: 66px;
-}
-.copa-america-highlights h1{
-    font-style: normal;
-    font-weight: bold; 
-    font-size: 64px;
-    line-height: 70px;
-    margin-bottom: 8px;
-    color:black;
-}
-.copa-america-highlights p{
-    font-size: 16px;
-    text-align:justify;
-    line-height: 28px;
-    margin-top: 0px;
-}
-/* ----------
-watch-now 
-----------*/
-
-.watch-now{
-    width: 168px;
-    height: 44px;
-    left: 156px;
-    top: 360px;
-    background: #E02C6D;
-}
-.watch-now a{
-    text-decoration: none;
-    color: #FFFFFF;
-}
-.watch-now p{
-    font-size: 16px;
-    line-height: 24px;
-    text-align: center;
-    margin-top: 10px;
-    color: #FFFFFF;
-}
-/* ----------- 
-match-pic 
------------*/
-.match-pic{
-    display: flex;
-    width: 556.01px;
-    height: 438px;
-    margin-left: 800px;   
-}
-.match-pic img{
-    width: 580px;
-    height: 440px;
-}
 /* -----------
  footer 
  ---------*/
@@ -564,4 +490,71 @@ match-pic
     height: 110px;
     left: 0px;
     top: 0px;
+}
+
+/* ----------------------
+     Media Queries
+--------------------- */
+
+/* Mobaile Device */
+
+@media only screen and (max-width:668px) {
+    
+    .container{
+        width: 100%;
+    }
+    
+    .container1{
+        width: 100%;
+        margin-left: 0px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .watch-live{
+        text-align: center;
+        margin-top: 80px;
+    }
+
+    .banner{
+        width: 50%;
+        margin-top: 100px;
+        margin-left: 0%;
+        display: block;
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+
+
+    .top-players{
+        width: 100%;
+        margin: 0%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .second-players{
+        width: 100%;
+        margin: 0%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .third-players{
+        width: 100%;
+        margin: 0%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .fourth-players{
+        width: 100%;
+        margin: 0%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .footer{
+        width: 100%;
+        margin: 5px,0%,0%,0%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .footer img{
+        width: 100%;
+        text-align: center;
+    }
+
+
+
 }
